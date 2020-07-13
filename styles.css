@@ -1,0 +1,132 @@
+body{
+
+font-family: 'Karla', sans-serif;
+
+margin: 10% 30%;
+
+background-color: hsl(204, 43%, 93%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/* top-content */
+.top-content{
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.top-content h2{
+  color: hsl(179, 62%, 43%);
+}
+
+.attribution{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsl(179, 62%, 43%);
+}
+
+.top-p1 {
+  font-weight: 700;
+  color: hsl(71, 73%, 74%);
+}
+
+.top-p2{
+  margin: 0 auto;
+}
+
+.top-p3{
+  margin-top: 5px;
+}
+
+.top-p2, .top-p3{
+  color: hsl(218, 22%, 67%);
+}
+
+.top-content{
+  padding: 1rem 1.7rem;
+}
+
+
+/* bottom-content */
+ .bottom-content{
+   color:#fff;
+   overflow: auto;
+
+ }
+
+ .float-1,.float-2{
+   width: 40%;
+   float: left;
+   padding: 5%;
+   border-style:none;
+   height:224px;
+ }
+
+ .float-1{
+  background-color: hsl(179, 62%, 43%);
+  
+  border-radius:0 0 0 15px;
+ }
+
+ .float-2{
+   background-color: hsl(179, 62%, 48%);
+   border-radius:0 0 15px 0;
+ }
+
+/* pricing */
+
+.pricing-p1,.why-us-p1{
+  font-size: 20px;
+  margin-bottom: 0px;
+
+}
+
+.pricing-p2{
+  margin-top: 0px;
+  color:hsl(179, 62%, 50%);
+}
+
+
+.dollar{
+  position: relative;
+  top:7px;
+  font-size: 2.5rem;
+  padding: 8px 8px 8px 0px;
+  color:#fff;
+}
+
+
+
+button{
+  width:100%;
+  padding: 15px;
+  border-style: none;
+  border-radius: 0.625rem;
+  background-color: hsl(71, 73%, 74%);
+  font-family: 'Karla', sans-serif;
+  font-size: 1.125rem;
+  color: white;
+  position: relative;
+  top: 0.625rem;
+
+}
+
+button:hover{
+  background-color: green;
+}
+
+/* why-us */
+
+
+ul{
+  list-style-type: none;
+  padding:0;
+
+}
+
+li{
+  line-height:23px;
+  }
