@@ -132,7 +132,7 @@ li{
   }
 
 /* mobile version */
-@media only screen and (min-width:375px) and (max-width:1400px){
+@media only screen and (min-width:100px) and (max-width:1400px){
   body{
     margin: 10% 5%;
   }
