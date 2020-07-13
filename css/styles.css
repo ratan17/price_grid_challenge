@@ -7,6 +7,8 @@ margin:10% 30%;
 background-color: hsl(204, 43%, 93%);
 }
 
+
+
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -136,6 +138,10 @@ li{
   body{
     margin: 10% 5%;
   }
+    
+    div{
+    display:block;
+    }
 
   .top-content{
     padding:5%;
