@@ -130,3 +130,36 @@ ul{
 li{
   line-height:23px;
   }
+
+/* mobile version */
+@media only screen and (min-width:375px) and (max-width:1400px){
+  body{
+    margin: 10% 5%;
+  }
+
+  .top-content{
+    padding:5%;
+  }
+
+  .top-content p{
+    line-height:25px;
+  }
+
+  .bottom-content{
+    overflow:hidden;
+  }
+  
+  .float-1, .float-2{
+    width:100%;
+    float:none;
+    border-radius:unset;
+    height:unset;
+    line-height:3rem;
+  }
+
+  button{
+    position:static;
+    width:80%;
+  }
+
+}
