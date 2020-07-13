@@ -134,7 +134,7 @@ li{
   }
 
 /* mobile version */
-@media (min-width:375px) and (max-width:1400px){
+@media (max-width:375px){
   body{
     margin: 10% 5%;
   }
