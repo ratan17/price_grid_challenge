@@ -56,7 +56,7 @@ background-color: hsl(204, 43%, 93%);
  .bottom-content{
    color:#fff;
    display: flex;
-   flex-direction : column;
+   flex-direction : row;
 }
 
  .bottom-content-left, .bottom-content-right{
@@ -66,13 +66,13 @@ background-color: hsl(204, 43%, 93%);
    height:224px;
  }
 
- .float-1{
+ .bottom-content-left{
   background-color: hsl(179, 62%, 43%);
   
   border-radius:0 0 0 15px;
  }
 
- .float-2{
+ .bottom-content-right{
    background-color: hsl(179, 62%, 48%);
    border-radius:0 0 15px 0;
  }
