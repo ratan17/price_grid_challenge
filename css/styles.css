@@ -55,13 +55,12 @@ background-color: hsl(204, 43%, 93%);
 /* bottom-content */
  .bottom-content{
    color:#fff;
-   overflow: auto;
+   display: flex;
+   flex-direction : column;
+}
 
- }
-
- .float-1,.float-2{
+ .bottom-content-left, .bottom-content-right{
    width: 40%;
-   float: left;
    padding: 5%;
    border-style:none;
    height:224px;
